@@ -41,7 +41,10 @@ oks = []
 cps = []
 
 def main_apv():
-    imt = '+SUBHAN=='
+    try:
+        token=open('token.txt','r').read()
+ 
+
     os.system('clear')
     print logo
     try:
